@@ -1,0 +1,69 @@
+Deploy started at 5:32:12 PM 04/01/2023
+
+5:32:12 PM 04/01/2023: Deploy started
+5:32:14 PM 04/01/2023: Docker image: 'fleek/next-js:node-16'
+5:32:14 PM 04/01/2023: Build command: 'env > .env && npm install && npm run build && npm run export'
+5:32:14 PM 04/01/2023: Triggering build execution...
+5:33:12 PM 04/01/2023: npm WARN deprecated multiaddr-to-uri@8.0.0: This module is deprecated, please upgrade to @multiformats/multiaddr-to-uri
+5:33:15 PM 04/01/2023: npm WARN deprecated multiaddr@10.0.1: This module is deprecated, please upgrade to @multiformats/multiaddr
+5:33:24 PM 04/01/2023: added 594 packages, and audited 595 packages in 19s
+5:33:24 PM 04/01/2023: 156 packages are looking for funding
+5:33:24 PM 04/01/2023: run `npm fund` for details
+5:33:24 PM 04/01/2023: found 0 vulnerabilities
+5:33:24 PM 04/01/2023: npm notice
+5:33:24 PM 04/01/2023: npm notice New major version of npm available! 7.18.1 -> 9.6.3
+5:33:24 PM 04/01/2023: npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.3>
+5:33:24 PM 04/01/2023: npm notice Run `npm install -g npm@9.6.3` to update!
+5:33:24 PM 04/01/2023: npm notice
+5:33:24 PM 04/01/2023: > forum@0.1.0 build
+5:33:24 PM 04/01/2023: > next build
+5:33:25 PM 04/01/2023: info - Loaded env from /workspace/.env
+5:33:25 PM 04/01/2023: Attention: Next.js now collects completely anonymous telemetry regarding usage.
+5:33:25 PM 04/01/2023: This information is used to shape Next.js' roadmap and prioritize features.
+5:33:25 PM 04/01/2023: You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+5:33:25 PM 04/01/2023: https://nextjs.org/telemetry
+5:33:25 PM 04/01/2023: info - Linting and checking validity of types...
+5:33:29 PM 04/01/2023: info - Creating an optimized production build...
+5:33:42 PM 04/01/2023: info - Compiled successfully
+5:33:42 PM 04/01/2023: info - Collecting page data...
+5:33:49 PM 04/01/2023: info - Generating static pages (0/3)
+5:33:50 PM 04/01/2023: info - Generating static pages (3/3)
+5:33:50 PM 04/01/2023: info - Finalizing page optimization...
+5:33:50 PM 04/01/2023: Route (pages) Size First Load JS
+5:33:50 PM 04/01/2023: ┌ ○ / (791 ms) 181 kB 254 kB
+5:33:50 PM 04/01/2023: ├ └ css/46ea975c2475b785.css 1.83 kB
+5:33:50 PM 04/01/2023: ├ /_app 0 B 73.6 kB
+5:33:50 PM 04/01/2023: ├ ○ /404 181 B 73.8 kB
+5:33:50 PM 04/01/2023: └ λ /api/hello 0 B 73.6 kB
+5:33:50 PM 04/01/2023: + First Load JS shared by all 74.3 kB
+5:33:50 PM 04/01/2023: ├ chunks/framework-114634acb84f8baa.js 45.4 kB
+5:33:50 PM 04/01/2023: ├ chunks/main-010ff0b6bbe5ac8f.js 27.1 kB
+5:33:50 PM 04/01/2023: ├ chunks/pages/_app-891652dd44e1e4e1.js 296 B
+5:33:50 PM 04/01/2023: ├ chunks/webpack-dcf4136cb4ed4a3e.js 869 B
+5:33:50 PM 04/01/2023: └ css/876d048b5dab7c28.css 706 B
+5:33:50 PM 04/01/2023: λ (Server) server-side renders at runtime (uses getInitialProps or getServerSideProps)
+5:33:50 PM 04/01/2023: ○ (Static) automatically rendered as static HTML (uses no initial props)
+5:33:50 PM 04/01/2023: > forum@0.1.0 export
+5:33:50 PM 04/01/2023: > next export
+5:33:51 PM 04/01/2023: info - Loaded env from /workspace/.env
+5:33:51 PM 04/01/2023: info - using build directory: /workspace/.next
+5:33:51 PM 04/01/2023: info - Copying "static build" directory
+5:33:51 PM 04/01/2023: info - No "exportPathMap" found in "/workspace/next.config.js". Generating map from "./pages"
+5:33:51 PM 04/01/2023: info - Launching 3 workers
+5:33:51 PM 04/01/2023: warn - Statically exporting a Next.js application via `next export` disables API routes.
+5:33:51 PM 04/01/2023: This command is meant for static-only hosts, and is not necessary to make your application static.
+5:33:51 PM 04/01/2023: Pages in your application without server-side data dependencies will be automatically statically exported by `next build`, including pages powered by `getStaticProps`.
+5:33:51 PM 04/01/2023: Learn more: https://nextjs.org/docs/messages/api-routes-static-export
+5:33:51 PM 04/01/2023: info - Exporting (0/3)
+5:33:51 PM 04/01/2023: info - Copying "public" directory
+5:33:51 PM 04/01/2023: info - Exporting (3/3)
+5:33:51 PM 04/01/2023: Export successful. Files written to /workspace/out
+5:33:53 PM 04/01/2023: Deployed to IPFS and got the hash:
+5:33:53 PM 04/01/2023: QmTDnD7tGPLZhiMD7esEvDKe5oqwbQHx7nzYhV5nxbndQg
+5:33:53 PM 04/01/2023: Checking content availability on IPFS...
+5:33:55 PM 04/01/2023: Updating DNS records...
+5:33:56 PM 04/01/2023: DNS was updated. You can visit the new site at:
+5:33:56 PM 04/01/2023: https://orange-night-5296.on.fleek.co
+
+
+
